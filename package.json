@@ -1,0 +1,20 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Jorge Guerrero",
+  "license": "ISC",
+  "dependencies": {
+    "@auth0/auth0-react": "^1.11.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20"
+  }
+}
